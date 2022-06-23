@@ -1,6 +1,6 @@
 import {HttpException, HttpStatus, Injectable, NestMiddleware} from '@nestjs/common';
 import {JwtService} from '@nestjs/jwt';
-import {PUBLIC_KEY} from '../../likes/constants/public-key';
+import {PUBLIC_KEY} from '../../shared/constants/public-key';
 
 @Injectable()
 export class AuthMiddleware implements NestMiddleware {
